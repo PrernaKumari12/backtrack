@@ -11,9 +11,7 @@ public class Coin_denominaton {
 			System.out.println(ans);
 			return;
 		}
-		if(amount<0) {
-			return;
-		}
+		
 		
 		for(int i=0;i<arr.length;i++) {
 		coin(amount-arr[i], arr,ans+arr[i]);
